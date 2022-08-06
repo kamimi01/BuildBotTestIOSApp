@@ -11,7 +11,7 @@ import SwiftUI
 struct BuildBotTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(model: Model())
         }
     }
 }
